@@ -18,8 +18,8 @@
   font-family: 'VelaSans';
   font-style: normal;
   font-weight: 600;
-  src: local('VelaSans-Semibold'), url('../fonts/VelaSans-Semibold.woff2') format('woff2'),
-    url('../fonts/VelaSans-Semibold.woff') format('woff');
+  src: local('VelaSans-SemiBold'), url('../fonts/VelaSans-SemiBold.woff2') format('woff2'),
+    url('../fonts/VelaSans-SemiBold.woff') format('woff');
 }
 
 @font-face {
@@ -34,8 +34,8 @@
   font-family: 'VelaSans';
   font-style: normal;
   font-weight: 800;
-  src: local('VelaSans-Extrabold'), url('../fonts/VelaSans-Extrabold.woff2') format('woff2'),
-    url('../fonts/VelaSans-Extrabold.woff') format('woff');
+  src: local('VelaSans-ExtraBold'), url('../fonts/VelaSans-ExtraBold.woff2') format('woff2'),
+    url('../fonts/VelaSans-ExtraBold.woff') format('woff');
 }
 
 :root {
