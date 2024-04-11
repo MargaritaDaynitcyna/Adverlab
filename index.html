@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adverlab</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- <script defer src="./js/main.js"></script> -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header-top flex sp-between aling-center text-black fw700 fs14">
+                <div class="header-left">
+                    <a class="header-tel" href="tel:+79037300320">
+                        +7(903) 730-03-20
+                    </a>
+                </div>
+                <div class="header-center">
+                    <a href="index.html" class="logo">
+                        <img src="./img/logo.png" alt="Logo" class="logo-img">
+                    </a>
+                </div>
+                <div class="header-right">
+                    <a class="header-mail" href="mailto:hello@adwerlab.ru">
+                        hello@adwerlab.ru
+                    </a>
+                </div>
+            </div>
+            <div class="header__nav">
+                <button class="burger" id="burger" name="Меню">
+                    <svg class="burger__icon" width="24" height="24" viewBox="0 0 24 24" fill="black"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="3" rx="1.5" />
+                        <rect y="21" width="24" height="3" rx="1.5" />
+                        <rect y="11" width="24" height="3" rx="1.5" />
+                    </svg>
+                </button>
+                <nav class="nav" id="menu">
+                    <button class="close" id="close" name="Закрыть">
+                        <svg class="close__icon" width="24" height="24" viewBox="0 0 24 24" fill="black"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4.5752" y="2.95406" width="24" height="3" rx="1.5"
+                                transform="rotate(45 4.5752 2.95406)" fill="black" />
+                            <rect x="21.5459" y="5.07538" width="24" height="3" rx="1.5"
+                                transform="rotate(135 21.5459 5.07538)" fill="black" />
+                        </svg>
+                    </button>
+                    <ul class="nav__list white-block flex sp-between aling-center fw800 fs12">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Онлайн-калькулятор</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">Как мы работаем?</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#cases" class="nav__link">Кейсы</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#tools" class="nav__link">Наши инструменты</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#team" class="nav__link">Команда</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#client" class="nav__link">Стать клиентом</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main" id="main">
+            <div class="container main__container flex aling-center">
+                <div class="main__content flex">
+                    <h1 class="main__title fs48 text-black">
+                        Целевые заявки <span class="fw400">
+                            в ветеринарную клинику
+                        </span>
+                    </h1>
+                    <div class="main__info fw400 fs18">
+                        Привлечем <span class="fw600">целевые заявки</span> в вашу ветеринарную клинику
+                        с оплатой за результат уже <span class="fw600">через 3 дня</span> по стоимости
+                        <span class="fw600">от 390 рублей</span>
+                    </div>
+                    <button type="button" class="btn main-btn fw800 fs14">
+                        Узнать стоимость
+                    </button>
+                </div>
+                <div class="main__img">
+                    <img src="./img/main.png" alt="Животные" class="pets">
+                </div>
+            </div>
+        </section>
+        <section class="results">
+            <div class="container results__container flex">
+                <div class="results__left flex">
+                    <h2 class="section-title results__title text-black">
+                        <span class="fw400">Реклама для ветклиник</span> с гарантией результата
+                    </h2>
+                    <div class="results__who who flex">
+                        <div class="who__block flex aling-center">
+                            <div class="who__img">
+                                <img src="./img/dog.png" alt="собака">
+                            </div>
+                            <div class="who__text fs22">
+                                Для <span class="fw600">частных и сетевых</span> ветеринарных клиник
+                            </div>
+                        </div>
+                        <div class="who__block flex aling-center">
+                            <div class="who__img">
+                                <img src="./img/man.png" alt="человек">
+                            </div>
+                            <div class="who__text fs22">
+                                Для тех, <span class="fw600">кто устал</span> перебирать подрядчиков и
+                                <span class="fw600">хочет стабильных результатов</span> для своего бизнеса
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn results-btn fw800 fs14">
+                        Оставить заявку
+                    </button>
+                </div>
+                <div class="results__right flex">
+                    <div class="benefits">
+                        <ul class="benefits__list">
+                            <li class="benefits__item flex">
+                                <span class="marker"><img src="./img/dots.png" alt="маркер" class="marker-img"></span>
+                                <span>Вам не нужно платить за пустые и неликвидные заявки</span>
+                            </li>
+                            <li class="benefits__item flex">
+                                <span class="marker"><img src="./img/dots.png" alt="маркер" class="marker-img"></span>
+                                <span>Вам не нужно думать о соблюдении маркировки рекламы</span>
+                            </li>
+                            <li class="benefits__item flex">
+                                <span class="marker"><img src="./img/dots.png" alt="маркер" class="marker-img"></span>
+                                <span>Вам не нужно оплачивать рекламный бюджет. Вы платите только за нашу работу</span>
+                            </li>
+                            <li class="benefits__item flex">
+                                <span class="marker"><img src="./img/dots.png" alt="маркер" class="marker-img"></span>
+                                <span>Покрываем всю поисковую выдачу. Конкуренты кусают локти и плачут</span>
+                            </li>
+                            <li class="benefits__item flex">
+                                <span class="marker"><img src="./img/dots.png" alt="маркер" class="marker-img"></span>
+                                <span>Будем работать только с вами в вашем регионе</span>
+                            </li>
+                            <li class="benefits__item flex">
+                                <span class="marker"><img src="./img/dots.png" alt="маркер" class="marker-img"></span>
+                                <span>Вы платите только за реальные заявки</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="result fw700 fs25">
+                        Вы сможете получать от 200 качественных заявок каждый месяц с оплатой за результат
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="help">
+            <div class="container help__container flex">
+                <div class="help__left flex">
+                    <h2 class="section-title help__title">
+                        Как наша работа <span class="fw500">поможет Вам?</span>
+                    </h2>
+                    <div class="help__description fs18 fw400">
+                        Наверняка вы уже видели десятки и сотни предложений от маркетологов, которые обещают вам звезды
+                        с неба. Но хорошо, если по факту они делают для вас хотя бы половину от обещанного.
+                        Чаще всего <span class="fw600">просто сливают ваши бюджеты и уходят в закат</span>,
+                        когда речь идет о результате
+                    </div>
+                    <div class="help__money flex">
+                        <span class="orange-line">
+                            <img src="./img/line.png" alt="">
+                        </span>
+                        <p class="money__text fs18 fw400">
+                            Причину этому проста — на рынке очень много «специалистов» — которые всегда найдут причины
+                            для того,
+                            чтобы <span class="fw600">взять у вас деньги и не нести за них ответственность</span>
+                        </p>
+                    </div>
+                    <div class="help__consult consult flex">
+                        <button type="button" class="btn help-btn fw800 fs14">
+                            Проконсультироваться
+                        </button>
+                        <div class="contact flex aling-center">
+                            <div class="contact__text fw400 fs14">или</div>
+                            <div class="contact__tg">
+                                <img src="./img/tg.png" alt="Телеграм">
+                            </div>
+                            <div class="contact__ws">
+                                <img src="./img/ws.png" alt="Вотсап">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="help__right flex aling-center">
+                    <div class="help__block grey-block fs20 fw400">
+                        <p class="">
+                            Тем не менее, заявки целевых клиентов <span class="fw600">— это топливо для любого
+                                бизнеса.</span>
+                            И их нужно привлекать для того, чтобы развиваться
+                        </p>
+                        <img src="./img/gasoline.png" alt="Канистра" class="corner">
+                    </div>
+                    <div class="help__block grey-block fs20 fw400">
+                        <p class="">
+                            Наша команда более года работает с ветклиниками. В среднем
+                            <span class="fw600">наши клиенты получают по 300 - 500 заявок</span> из Яндекс. Директ в
+                            месяц
+                        </p>
+                        <img src="./img/arrow.png" alt="Стрелочка" class="corner">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work">
+            <div class="container work__container">
+                <h2 class="section-title work__title">
+                    Работа построена так
+                </h2>
+                <div class="work__table">
+                    <ul class="work__list flex aling-center">
+                        <li class="work__item flex aling-center">
+                            <div class="work__level flex aling-center">
+                                <span class="dot"><img src="./img/dots.png" alt="Маркер"></span>
+                                <span class="lvl fw400 fs12">Уровень 1</span>
+                            </div>
+                            <div class="skew skew1 fs18 flex aling-center">
+                                Согласовываем с Вами предварительную стоимость заявки от 500 до 900 ₽ в зависимости от
+                                региона
+                            </div>
+                        </li>
+                        <li class="work__item  flex aling-center">
+                            <div class="work__level flex aling-center">
+                                <span class="dot"><img src="./img/dots.png" alt="Маркер"></span>
+                                <span class="lvl fw400 fs12">Уровень 2</span>
+                            </div>
+                            <div class="skew skew2 fs18 flex aling-center">
+                                Вы оплачиваете тариф “Бизнес” на конструкторе сайтов Тильда - 1250 ₽
+                            </div>
+                        </li>
+                        <li class="work__item work__item3  flex aling-center">
+                            <div class="work__level flex aling-center">
+                                <span class="dot"><img src="./img/dots.png" alt="Маркер"></span>
+                                <span class="lvl fw400 fs12">Уровень 3</span>
+                            </div>
+                            <div class="skew skew3 fs18 flex aling-center">
+                                Мы настраиваем рекламу и приводим вам заявки
+                            </div>
+                        </li>
+                        <li class="work__item  flex aling-center">
+                            <div class="work__level flex aling-center">
+                                <span class="dot"><img src="./img/dots.png" alt="Маркер"></span>
+                                <span class="lvl fw400 fs12">Уровень 4</span>
+                            </div>
+                            <div class="skew skew4 fs18 flex aling-center">
+                                Сайты и кабинеты, с которых мы приводим вам целевой трафик мы не показываем
+                            </div>
+                        </li>
+                        <li class="work__item  flex aling-center">
+                            <div class="work__level flex aling-center">
+                                <span class="dot"><img src="./img/dots.png" alt="Маркер"></span>
+                                <span class="lvl fw400 fs12">Уровень 5</span>
+                            </div>
+                            <div class="skew skew5 fs18 flex aling-center">
+                                Квалификация новой заявки
+                            </div>
+                        </li>
+                        <li class="work__item  flex aling-center">
+                            <div class="work__level flex aling-center">
+                                <span class="dot"><img src="./img/dots.png" alt="Маркер"></span>
+                                <span class="lvl fw400 fs12">Уровень 6</span>
+                            </div>
+                            <div class="skew skew6 fs18 flex aling-center">
+                                Тестовый период длится в течение 5-7 дней после старта трафика. Около 3 дней занимает
+                                подготовка к нему
+                            </div>
+                        </li>
+                        <li class="work__item  flex aling-center">
+                            <div class="work__level flex aling-center">
+                                <span class="dot"><img src="./img/dots.png" alt="Маркер"></span>
+                                <span class="lvl fw400 fs12">Уровень 7</span>
+                            </div>
+                            <div class="skew skew7 fs18 flex aling-center">
+                                Вы платите только за приведенные заявки по заранее оговоренной цене
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="work__bottom flex">
+                    <div class="lids fs18">
+                        <p class="lids__text">
+                            Если вам все нравится, мы предлагаем вам конкретное количество лидов по оговоренной
+                            цене на следующий период, но уже по полной предоплате
+                            (есть возможность заключения договоров на ИП и ООО)
+                        </p>
+                    </div>
+                    <div class="bots grey-block">
+                        Так же мы настраиваем получение заявок удобным для вас образом:
+                        <span class="fw700">в вашу текущую CRM, на почту и в TG-ботов</span>
+                    </div>
+                </div>
+                <div class="work__consult consult flex  aling-center">
+                    <button type="button" class="btn help-btn fw800 fs14">
+                        Проконсультироваться
+                    </button>
+                    <div class="contact flex aling-center">
+                        <div class="contact__text fw400 fs14">или</div>
+                        <div class="contact__tg">
+                            <img src="./img/tg.png" alt="Телеграм">
+                        </div>
+                        <div class="contact__ws">
+                            <img src="./img/ws.png" alt="Вотсап">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cases" id="cases">
+            <div class="container cases__container">
+                <h2 class="section-title cases__title">
+                    Почему для клиента это безопасно
+                </h2>
+                <div class="flex cases__gap">
+                    <div class="cases__content flex">
+                        <div class="cases__block grey-block flex">
+                            <p class="cases__heading fw800 fs30">КЕЙС №1</p>
+                            <p class="cases__text">
+                                <span class="fw400">Сеть клиник в Санкт-Петербурге </span>
+                                <spn class="fw600">— 2500 заявок за 7 месяцев работы</spn>
+                            </p>
+                        </div>
+                        <div class="cases__block grey-block flex">
+                            <p class="cases__heading fw800 fs30">КЕЙС №2</p>
+                            <p class="cases__text">
+                                <span class="fw400">Сеть клиник в Сочи — </span>
+                                <spn class="fw600">900 заявок за 6 месяцев работы </spn>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cases__quest flex">
+                        <div class="cases__stat flex">
+                            <img src="./img/report1.png" alt="Отчет">
+                            <img src="./img/report2.png" alt="Отчет">
+                        </div>
+                        <div class="cases__question white-block flex">
+                            <p class="cases__heading fw800 fs30">А что если результата не будет?</p>
+                            <p class="cases__text">То вы ничего и не должны оплачивать, потому что наша основа
+                                наших отношений — это результаты и доверие
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="question" id="question">
+            <div class="container question__container">
+                <h2 class="section-title question__title fw500">
+                    Вопрос-ответ
+                </h2>
+                <div class="flex question__gap">
+                    <div class="question__left flex">
+                        <div class="cases__question white-block flex">
+                            <p class="cases__heading fw800 fs28">Вы работаете по договору?</p>
+                            <p class="cases__text">Да, у нас есть ИП, договоры, ЭДО</p>
+                        </div>
+                        <div class="cases__question white-block flex">
+                            <p class="cases__heading fw800 fs28">Почему вы берете деньги только за работу?</p>
+                            <p class="cases__text">Потому что наш подход позволяет экономить ваши деньги</p>
+                        </div>
+                    </div>
+                    <div class="question__right  white-block flex">
+                        <p class="cases__heading fw800 fs28">А что, если будут бракованные заявки?</p>
+                        <p class="cases__text">20-30% брака на заявках — это нормальная картина при ведении интернет
+                            рекламы.
+                        </p>
+                        <p class="cases__text">
+                            Если бы выбрали в работу другого подрядчика — этот процент был бы еще выше. Но засчет того,
+                            что
+                            мы не берем рекламный бюджет и экономим ваши затраты, стоимость «бракованных», «левых»
+                            заявок
+                            нивелируется и вы получаете целевые заявки по комфортной для вас цене
+                        </p>
+                    </div>
+                </div>
+                <div class="question__consult consult flex">
+                    <button type="button" class="btn help-btn fw800 fs14">
+                        Проконсультироваться
+                    </button>
+                    <div class="contact flex aling-center">
+                        <div class="contact__text fw400 fs14">или</div>
+                        <div class="contact__tg">
+                            <img src="./img/tg.png" alt="Телеграм">
+                        </div>
+                        <div class="contact__ws">
+                            <img src="./img/ws.png" alt="Вотсап">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container contacts__container flex aling-center">
+                <div class="contacts__content flex">
+                    <h2 class="contacts__title fw400 fs36 text-black">
+                        Оставьте Ваши контакты и станьте лидером среди Ваших конкурентов в регионе
+                    </h2>
+                    <div class="contacts__info fs18">
+                        Ведь мы будем работать только с вами и покроем топовые позиции в Яндекс. Директ и выведем вас в
+                        первые позиции. Потенциальные клиенты будут видеть вас в разы чаще, чем всех остальных
+                    </div>
+                    <form method="POST" class="form contacts__form flex aling-center">
+                        <div class="input-group flex aling-center">
+                            <span class="icon">
+                                <img src="./img/call.svg" alt="">
+                            </span>
+                            <input type="tel" name="tel" id="tel" placeholder="+7(ххх)ххх-хх-хх"
+                                class="input input__tel fs14 fw800">
+                        </div>
+                        <button type="submit" class="btn form-btn fw800 fs14">
+                            Заказать звонок
+                        </button>
+                    </form>
+                </div>
+                <div class="contacts__img">
+                    <img src="./img/rebbit.png" alt="Животные" class="pets">
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container footer__container ">
+                <div class="footer-block white-block fw500 fs30 flex aling-center">
+                    <p> Начните получать первые заявки через 5-7 дней после запуска трафика и от 200 заявок в течение
+                        первого месяца</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
