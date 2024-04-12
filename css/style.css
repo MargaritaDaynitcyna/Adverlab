@@ -1180,3 +1180,10 @@ li {
     padding: 23px 16px;
   }
 }
+
+/* Если менять график, то можно это применить к блокам
+transform: perspective(72px) rotateX(355deg);
+    background-color: red;
+    width: calc(100% - 26px);
+}
+ */
