@@ -883,7 +883,7 @@ li {
 }
 
 @media (max-width: 866px) {
-  .header__center {
+  .header-center {
     position: absolute;
     top: 15px;
     left: calc(50% - 66px);
@@ -969,6 +969,7 @@ li {
     justify-content: start;
     width: 250px;
     height: 188px;
+    font-size: 30px;
   }
 
   .nav__list {
