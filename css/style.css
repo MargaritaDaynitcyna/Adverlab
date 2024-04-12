@@ -651,7 +651,7 @@ li {
   flex-direction: column;
   gap: 20px;
   min-height: 198px;
-  height: -webkit-fill-available;
+  height: 100%;
 }
 
 
@@ -1029,6 +1029,10 @@ li {
 
   .help__block {
     min-height: 163px;
+  }
+  .help__block p {
+    z-index: 5;
+    position: relative;
   }
 
   .input-group {
