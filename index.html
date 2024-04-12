@@ -9,13 +9,12 @@
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-
-    <!-- <script defer src="./js/main.js"></script> -->
+    <script defer src="./js/main.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <div class="container header__container">
+        <div class="container header__container flex">
             <div class="header-top flex sp-between aling-center text-black fw700 fs14">
                 <div class="header-left">
                     <a class="header-tel" href="tel:+79037300320">
@@ -52,7 +51,7 @@
                                 transform="rotate(135 21.5459 5.07538)" fill="black" />
                         </svg>
                     </button>
-                    <ul class="nav__list white-block flex sp-between aling-center fw800 fs12">
+                    <ul class="nav__list white-block flex sp-between aling-center fw800 fs12" id="menu">
                         <li class="nav__item">
                             <a href="#" class="nav__link">Онлайн-калькулятор</a>
                         </li>
@@ -79,16 +78,18 @@
     <main>
         <section class="main" id="main">
             <div class="container main__container flex aling-center">
-                <div class="main__content flex">
-                    <h1 class="main__title fs48 text-black">
-                        Целевые заявки <span class="fw400">
-                            в ветеринарную клинику
-                        </span>
-                    </h1>
-                    <div class="main__info fw400 fs18">
-                        Привлечем <span class="fw600">целевые заявки</span> в вашу ветеринарную клинику
-                        с оплатой за результат уже <span class="fw600">через 3 дня</span> по стоимости
-                        <span class="fw600">от 390 рублей</span>
+                <div class="main__content flex sp-between">
+                    <div class="main__text">
+                        <h1 class="main__title fs48 text-black">
+                            Целевые заявки <span class="fw400">
+                                в ветеринарную клинику
+                            </span>
+                        </h1>
+                        <div class="main__info fw400 fs18">
+                            Привлечем <span class="fw600">целевые заявки</span> в вашу ветеринарную клинику
+                            с оплатой за результат уже <span class="fw600">через 3 дня</span> по стоимости
+                            <span class="fw600">от 390 рублей</span>
+                        </div>
                     </div>
                     <button type="button" class="btn main-btn fw800 fs14">
                         Узнать стоимость
@@ -220,7 +221,7 @@
                 </div>
             </div>
         </section>
-        <section class="work">
+        <section class="work" id="work">
             <div class="container work__container">
                 <h2 class="section-title work__title">
                     Работа построена так
@@ -406,7 +407,7 @@
                 </div>
             </div>
         </section>
-        <section class="contacts" id="contacts">
+        <section class="contacts" id="client">
             <div class="container contacts__container flex aling-center">
                 <div class="contacts__content flex">
                     <h2 class="contacts__title fw400 fs36 text-black">
