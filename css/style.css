@@ -976,6 +976,7 @@ li {
     min-height: auto;
     flex-direction: column;
   }
+
   .nav__list.fs12 {
     font-size: 20px;
     gap: 20px;
@@ -984,7 +985,6 @@ li {
   .nav_is-active .nav__item {
     margin-bottom: 64px;
   }
-
 
   .results__title {
     text-align: center;
@@ -1008,7 +1008,6 @@ li {
 
   .results__right {
     border-left: none;
-
   }
 
   .results-btn {
