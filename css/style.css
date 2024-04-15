@@ -265,16 +265,11 @@ li {
 }
 
 .nav__list {
-  /* min-height: 72px; */
   flex: 0 1 60%;
   flex-wrap: wrap;
   text-transform: uppercase;
 }
 
-/* .nav__list.white-block {
-  justify-content: space-between;
-  padding: 20px 22px;
-} */
 .nav__item:nth-child(1) {
   padding-left: 0;
 }
