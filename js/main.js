@@ -9,4 +9,9 @@ function burgerMenu() {
     document.querySelector("#close").addEventListener("click", () => {
         document.querySelector("#menu").classList.remove("nav__is-active")
     });
+    document.querySelectorAll('.nav__link').forEach(link => {
+        link.addEventListener("click", () => {
+            document.querySelector("#menu").classList.remove("nav__is-active")
+        });
+    })
 }

@@ -1007,7 +1007,7 @@ height: 40px;
   .nav__list {
     min-height: auto;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   .nav__list.fs12 {
